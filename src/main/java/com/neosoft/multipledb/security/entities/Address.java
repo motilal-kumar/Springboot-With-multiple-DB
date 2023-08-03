@@ -1,21 +1,22 @@
+/*
 package com.neosoft.multipledb.security.entities;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
+*/
 /**
  * Address Entity.
  *
  * @author Motilal  Kumar.
  *  version 1.0
  *
- */
+ *//*
 
+
+
+@Data
 @Entity
 @Table(name="addresses")
 @NoArgsConstructor
@@ -29,10 +30,5 @@ public class Address {
     @Column(nullable=false)
     private String city;
 
-    @JsonIgnore
-    @ManyToOne
-    @JoinColumn(name="user_id")
-    private User user;
-
-
 }
+*/

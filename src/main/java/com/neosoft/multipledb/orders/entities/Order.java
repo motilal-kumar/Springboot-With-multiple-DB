@@ -1,13 +1,11 @@
 package com.neosoft.multipledb.orders.entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Set;
 
 
 /**
@@ -34,8 +32,5 @@ public class Order {
     @Column(nullable=false, name="cust_email")
     private String customerEmail;
 
-    @JsonIgnore
-    @OneToMany(mappedBy="order")
-    private Set<OrderItem> orderItems;
 
 }

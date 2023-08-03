@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 /**
  * OrderRepository.
  *
- * @author Motilal  Kumar.
+ * @author Motilal Kumar.
  *  version 1.0
  *
  */

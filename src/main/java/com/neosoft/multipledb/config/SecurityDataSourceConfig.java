@@ -83,7 +83,6 @@ public class SecurityDataSourceConfig {
         return factory;
     }
 
-
     @Bean
     public DataSourceInitializer securityDataSourceInitializer()
     {
